@@ -5,6 +5,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/tpob-search/tpob-search-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/tpob-search/tpob-search-api/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
