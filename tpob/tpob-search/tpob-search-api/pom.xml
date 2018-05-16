@@ -11,6 +11,6 @@
 
     <groupId>com.bird.tpob.search.api</groupId>
     <artifactId>tpob-search-api</artifactId>
-
+    <packaging>jar</packaging>
 
 </project>

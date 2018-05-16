@@ -11,13 +11,11 @@
 
 
     <modules>
-
         <module>tpob-gateway</module>
         <module>tpob-common</module>
         <module>tpob-search</module>
         <module>tpob-consumer</module>
         <module>tpob-logs</module>
         <module>tpob-bus</module>
-        <module>tpob-common</module>
     </modules>
 </project>
