@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tpob-bus" />
+        <module name="tpob-common-base" />
+        <module name="tpob-common-config" />
+        <module name="tpob-common-utils" />
+        <module name="tpob-consumer" />
+        <module name="tpob-gateway" />
+        <module name="tpob-logs" />
+        <module name="tpob-search" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="tpob-base" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
