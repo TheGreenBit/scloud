@@ -17,6 +17,58 @@
         <module>tpob-common-config</module>
         <module>tpob-common-base</module>
     </modules>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <!--测试-->
+        <junit.version>4.12</junit.version>
+        <httpclient.version>4.5.3</httpclient.version>
+        <httpcore.version>4.4.9</httpcore.version>
+        <guava.version>23.0</guava.version>
+        <commons-lang3.version>3.7</commons-lang3.version>
+        <commons-io.version>2.6</commons-io.version>
+        <commons-collections.version>3.2.2</commons-collections.version>
+        <koloboke-api-jdk8.version>1.0.0</koloboke-api-jdk8.version>
+        <koloboke-impl-jdk8.version>1.0.0</koloboke-impl-jdk8.version>
+        <hppc.version>0.7.3</hppc.version>
+        <fastutil.version>8.1.1</fastutil.version>
+        <lombok.version>1.16.20</lombok.version>
+        <slf4j.version>1.7.25</slf4j.version>
+        <log4j.version>2.8.2</log4j.version>
+        <disruptor.version>3.3.7</disruptor.version>
+        <jackson.version>2.9.3</jackson.version>
+        <fastjson.version>1.2.44</fastjson.version>
+        <mockito-core.version>2.13.0</mockito-core.version>
+        <javassist.version>3.22.0-GA</javassist.version>
+        <asm.version>6.0</asm.version>
+        <cglib.version>3.2.6</cglib.version>
+    </properties>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>it.unimi.dsi</groupId>
+            <artifactId>fastutil</artifactId>
+            <version>${fastutil.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.version}</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
